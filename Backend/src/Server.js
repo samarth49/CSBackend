@@ -1,8 +1,8 @@
 // server.js
 import express from 'express';
 import cors from 'cors'; // Import CORS if needed
-import db from './db.js'; 
-import SensorData from './sensorData.js'; // Ensure this file is in the same directory
+import db from '../db.js'; 
+import SensorData from '../sensorData.js'; // Ensure this file is in the same directory
 
 const app = express();
 const PORT = process.env.PORT || 3000;
